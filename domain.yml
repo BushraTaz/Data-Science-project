@@ -1,0 +1,20 @@
+version: "3.1"
+
+intents:
+  - ask_most_matches
+  - ask_top_player_performance
+  - ask_best_team_2022
+
+responses:
+  utter_most_matches:
+    - text: "The player who played the most matches is **Lionel Messi**."  # Specify a known player
+
+  utter_top_player_performance:
+    - text: "The top player in Ligue 1 is **Karim Benzema**."
+
+  utter_best_team_2022:
+    - text: "In 2022, **Barcelona** performed exceptionally well."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

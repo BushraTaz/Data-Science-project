@@ -1,0 +1,17 @@
+version: "3.1"
+
+rules:
+  - rule: Respond to who played the most matches
+    steps:
+      - intent: ask_most_matches
+      - action: utter_most_matches
+
+  - rule: Respond to top player performance in Ligue 1
+    steps:
+      - intent: ask_top_player_performance
+      - action: utter_top_player_performance
+
+  - rule: Respond to best team in 2022
+    steps:
+      - intent: ask_best_team_2022
+      - action: utter_best_team_2022

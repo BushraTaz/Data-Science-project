@@ -1,0 +1,20 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_most_matches
+    examples: |
+      - Who played the most matches?
+      - Which player played the most matches?
+      - Tell me who played the most matches.
+
+  - intent: ask_top_player_performance
+    examples: |
+      - Which league has the top player performance in Ligue 1?
+      - Tell me the top player in Ligue 1.
+      - Who is the top player in Ligue 1?
+
+  - intent: ask_best_team_2022
+    examples: |
+      - Which team performed well in 2022?
+      - Who was the best team in 2022?
+      - Tell me the best team in 2022.

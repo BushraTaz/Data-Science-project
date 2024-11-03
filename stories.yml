@@ -1,0 +1,17 @@
+version: "3.1"
+
+stories:
+  - story: User asks who played the most matches
+    steps:
+      - intent: ask_most_matches
+      - action: utter_most_matches
+
+  - story: User asks for top player performance in Ligue 1
+    steps:
+      - intent: ask_top_player_performance
+      - action: utter_top_player_performance
+
+  - story: User asks which team performed well in 2022
+    steps:
+      - intent: ask_best_team_2022
+      - action: utter_best_team_2022
